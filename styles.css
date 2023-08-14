@@ -1,0 +1,109 @@
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+select{display: block}
+h1{font-size: 50px}
+.icon{font-size: 35px;
+margin-top: -25px;
+margin-bottom: -10px
+}
+p{font-size: 17px;
+  font-style:italic;
+  font-weight: 200;
+  
+}
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;}
+h1, p {
+        margin: 1em auto;
+        text-align: center;
+        font-family: 'Rowdies', cursive;}
+body {
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            background-color: rgba(255, 202, 212, 0);
+            
+            color: rgb(46,95,32);
+            font-family: 'Space Mono', monospace;
+            font-size: 17px;}     
+h4{font-size: 19px}  
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 3em;
+  background-color: rgb(232, 188, 213);
+  border-color: #FFB6C1;
+  border-radius: 10%;
+  color: rgb(46,95,32)
+}
+
+input, textarea {
+  background-color: #e8bcd5;
+  border: 2px solid rgb(236,189,197);
+  color: rgb(46,95,32);
+  border-radius: 4%;
+}
+.comment{margin-top: 30px;
+}
+textarea{padding-bottom: 30px;
+margin-top: -5px;
+margin-bottom: 8px;
+height: 7em
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0 ;
+  vertical-align: middle;}
+  .dropdown{margin-top: 25px;
+  margin-bottom: 20.5px}
+  .fav-dish{margin-bottom: 17}
+  .lovelanguage{margin-bottom: 12.5px}
+  .khinaoom{margin-bottom: 17px}
+  input[type="text"]{margin-top: -3px}
+  input[type="email"]{margin-top: -3px}
+  input[type="number"]{margin-top: -3px}
+  form{border: 5px solid none;
+  padding: 40px;
+  border-radius: 10px;
+background-color: rgba(255, 182, 193, 0.7)}
+input[type="placeholder"]{font-family: 'Space Mono', monospace;;}
+
+input[type="submit"]{background-color: #f4ba7d;
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 1.5em;
+  font-size: 1.1rem;
+min-width: 300px}
+img{background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: linear-gradient(
+      115deg,
+      rgba(255, 202, 212, 0.4),
+      rgba(232, 188, 213, 0.3)
+    ),
+    url(./IMG_1690434888094_1690441621184.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+  
